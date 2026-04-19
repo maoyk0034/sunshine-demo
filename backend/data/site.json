@@ -1,0 +1,451 @@
+{
+  "brand": "上岸晒太阳",
+  "tagline": "陪你走过考研每一公里",
+  "nav": [
+    { "label": "首页", "path": "/" },
+    { "label": "院校库", "path": "/schools" },
+    { "label": "复习规划", "path": "/study-plan" },
+    { "label": "学习中心", "path": "/learning" },
+    { "label": "社区广场", "path": "/community" },
+    { "label": "资源库", "path": "/resources" }
+  ],
+  "footer": {
+    "logoText": "上岸晒太阳",
+    "copyright": "© 2024 上岸晒太阳 - 陪你走过考研每一公里",
+    "slogan": "你的考研治愈港湾",
+    "links": ["关于我们", "隐私协议", "资源申诉", "加入我们"]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "开启你的 2025 考研之旅",
+      "titleStart": "愿每个考研人，",
+      "titleAccent": "最终都能上岸晒太阳",
+      "description": "告别焦虑与迷茫，在这里找到属于你的复习节奏。从院校选择到每日打卡，我们陪你走考研的每一公里。",
+      "searchPlaceholder": "搜索目标院校、专业、经验贴...",
+      "searchButton": "立即探索",
+      "searchHints": ["北京大学", "计算机科学与技术", "复习全书"],
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCxw7oEmG4NOLbEuiChU4a9qZyc-IyAj94gZ0vziqNF5jpVOqMlOgpVEbrXggwtNJfoYfgo-q_Xq5S-eH1jpFVWjS85Cjcc5IbiuwdiI2o_qZrdFKwPZUuBjgJ0bc8jKTVxjKpfftZHJF2BnH05LVvZO88TeUbY2AWjAY6U5LnBQx3AAac0AnzcNdv4lI1TAHN-XnTV4wEN7zYCmnghicHiJFy2_iY0ByP9GDpzj4Gjwbv9SN4n0qao_0vPgw7s04ZqZ0ZYubVpaJGJ",
+      "statLabel": "今日启航",
+      "statValue": "已有 12,450 人打卡"
+    },
+    "countdown": {
+      "title": "2025 初试倒计时",
+      "description": "保持专注，循序渐进。",
+      "value": "168",
+      "unit": "天",
+      "button": "查看我的专属时间轴"
+    },
+    "quickActions": [
+      {
+        "icon": "account_balance",
+        "iconBg": "bg-[#bdeefd] text-[#0d718b]",
+        "title": "院校库",
+        "subtitle": "数据对比，精准择校"
+      },
+      {
+        "icon": "edit_square",
+        "iconBg": "bg-[#ffd469] text-[#7f5600]",
+        "title": "复习规划",
+        "subtitle": "定计划，分阶段推进"
+      },
+      {
+        "icon": "favorite",
+        "iconBg": "bg-[#ffd9d6] text-[#b55345]",
+        "title": "今日打卡",
+        "subtitle": "记录热爱，见证成长"
+      },
+      {
+        "icon": "news",
+        "iconBg": "bg-[#efebe4] text-[#5c5244]",
+        "title": "经验贴",
+        "subtitle": "前人经验，少走弯路"
+      },
+      {
+        "icon": "groups",
+        "iconBg": "bg-[#efebe4] text-[#0c6f88]",
+        "title": "寻找研友",
+        "subtitle": "一个人走得快，一群人走得远。快来匹配你的同路人。",
+        "accent": "wide"
+      }
+    ],
+    "schoolSection": {
+      "title": "猜你想考",
+      "subtitle": "根据大数据分析，为你推荐以下热门院校",
+      "action": "全部院校"
+    },
+    "recommendedSchools": [
+      {
+        "name": "浙江大学",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoeK3jLLNIWXhZkYhppfo2_rXz4Dmyw3Ds-d_7O9wuD8VCOb91w_cff4g4U8Gra-Wi9wV1bc-eB6HolWrdnivUOzjIQQ3l5g4AYvZdji_w0fK8haxDfi91sVWa0VrcckrHOzOFZuOae8mHSju7JbULU2-rKGdFwYDcYyyPqPKZ2sHzmtzo-UwffF9f18t5N-rIzOzCFsycwQejSe7i_X9yPVrQ25J3DOXOjKuA60MkM54mR0CQ9ZoO1iN8wyxl2Z09Hy763bF5bb6T",
+        "score": "985/211",
+        "tag": "综合类",
+        "description": "求是创新。浙江大学是一所特色鲜明、在海内外有较大影响的综合型研究型大学。"
+      },
+      {
+        "name": "复旦大学",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD0MVGvyPyHzgd392KGa_HMOUan2RCYLIhPu-38LTMPPvKLo2-hfyV9Xiu1LaOAMpt8Lr3ZFZhszB5acTwncT7vEvJ6zAF3VXdNftyS1plzyJBBJGS3Ron6XW8iVDbjTuf5EVrxRiOycBLxMIpYW7tv6MpxiwppHvnj6K2HcmqMb6s7IsIWNGTqCtfBdkGo9Fbw613zBkHx4wfCgY4b7ABJQcT9_YoBgFqgPjHmrjjbuKxnzeZS9BdR7xPX1JVIYOwWPo-D9gPRBNlz",
+        "score": "985/211",
+        "tag": "综合类",
+        "description": "博学而笃志，切问而近思。中国著名的顶尖学府之一，学风开放而扎实。"
+      },
+      {
+        "name": "南京大学",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCJVVeur2YZ11ypbjr0SED-9jXDiDPH_8keDQW2xwp3sKi_0Uf8YL0YTofF7nhkGbVmAr5qW1BXgADVGNI6XYK0DdF4G6Cd3rHI6-iHife3R8i_lEHbTvMpc6OBnf4rpAn8T_xk-QJLCmGB_rpRcZIzXKbCyJt1D3lqPU-xzaTZqNwM-O9w2Thr-4Gxo-LosXKIWS6Zu2dzaSv8XVGqisUFKy-OYgVY-hhWe7eilrvingjvNqgDV-6584_YCIesdsAuexxvejddzm2j",
+        "score": "985/211",
+        "tag": "综合类",
+        "description": "诚朴雄伟，励学敦行。历史悠久，学脉深厚，是文理见长的综合性大学。"
+      },
+      {
+        "name": "上海交通大学",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBc3UIBFp6KW-xmvSTCE270MSIh_f7h4o0fWQ615hwRJ5qvGst5C3rCTw_yrpZLV_DC_QXx99gdIrzssIq5RYHZi2BoTUUb0li2cTvc6z41E0QQWD6ugBHI7VGmUXVVLUqSR50I_PsWML-egip6nYAst9daJfwlGqg81zgq1bCQ_z-nzX-GHweNPuSoHW3VigM0cq6CjT8HfFSdx44NEfvEicwuyMVlBS8WrR_fi67QfYcnSip-PBp0eB4b2-TZvbbLYzO0QL0bHozu",
+        "score": "985/211",
+        "tag": "理工类",
+        "description": "饮水思源，爱国荣校。国内领先的综合性研究型大学，工程学科优势突出。"
+      }
+    ],
+    "storySection": {
+      "title": "上岸故事精选",
+      "subtitle": "每一个闪闪发光的日子，都算数。看看前辈们是如何在这里找到方向，最终成功抵达彼岸的。",
+      "button": "阅读更多上岸故事"
+    },
+    "stories": [
+      {
+        "name": "林同学",
+        "school": "一志上岸 浙江工业大学",
+        "quote": "这里的复习规划功能真的救了我。以前总是做题没头绪，一慌题量越堆越多。现在每天照着小目标推进，效率和节奏都稳住了。",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDZjwuye7FNJco0oZiPfbp_T01iJuPQgUJU9r_g9zMVslQCfFhjaqaOZmXg7Aq8au2HXMaVGZvGmEJmmyu4DttZ5kPBvht5uRZpffibz0vJOB2B0tvPY1YWSwZRjtNQzkHBL5x4_PBYRXM_KDltPTKy8t-VJeP5Ai0I0d6w2ATrVoZ0nb3aW64B03zVKzLNidLhU0YNn9SfhxXLCeQSSCMkK8Vjnxgq3wqUiiTFHskJzHTYQuqMo16z58-s4QZf2FseZO2LUrQgli8q"
+      },
+      {
+        "name": "王同学",
+        "school": "岭上上岸 武汉大学",
+        "quote": "在社区里找到了神仙研友，我们每天互相监督打卡、分享资料。考研不再是孤军奋战，在这里我感受到了巨大的温暖和力量。",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCZ6eQ_cHMUfyoQN1376rTFCsv_jupZfhmZY4aA2Zc8qWHrnL8PXFpzSnUEpbCrm-kp8xkjATZw1n2_wbR4TGaZplUOadw0D04SlLpS2YhrWoRvN8nG7E5QjaGoDPeBIlCBv9nXZrenJOHOnzgWHUtMKqoc4JZlPbyGSNbpAD6w9A2FXvBbR3u2hdQIsjt-7ziRSJVhKTzJXBHzjmcPZ__NKVd32H_AtM_fR61MPRjfsmHFlJRsrXzC7VY3ziNddJztD-Q5T7iA9A2Z",
+        "featured": true
+      },
+      {
+        "name": "张同学",
+        "school": "二战上岸 四川大学",
+        "quote": "资料库超全，而且排版很舒服，没有那种冷冰冰的学习软件压迫感。每天打开上岸晒太阳，就觉得离梦想更近了一步。",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAT-BZLEfN2PZZu-VVBgWrBZ-ZAub2V1U1ND0iUqKJJSJmwLM_sQcOcl5XDjIX9b4Li-APnXxHMR_SoPD1pgyjiJAW2bvwSFVnAbpA-MUwNDt1QCuRibvkfPFt3guyN2EZh7BN8l68K1HB8Kufvw6sZyVniO3EaQ0_iasBWsRPiPpxqnS_u3H-CnQlN6BNkcCMBj4h4t0PsA99wzI72Ig37eL3YQIeB81RG1CmQMWL4C0tu1YCCe2UE1IyMVjdh4LnhfYzSHhni23Qc"
+      }
+    ]
+  },
+  "schools": {
+    "filters": {
+      "regions": [
+        { "label": "全部", "active": true },
+        { "label": "北京", "active": false },
+        { "label": "上海", "active": false },
+        { "label": "江苏", "active": false },
+        { "label": "浙江", "active": false }
+      ],
+      "levels": [
+        { "label": "985工程", "active": true },
+        { "label": "211工程", "active": false },
+        { "label": "双一流", "active": false }
+      ]
+    },
+    "searchPlaceholder": "搜索院校名称...",
+    "sorts": ["综合排序", "热度优先", "分数线"],
+    "list": [
+      {
+        "name": "北京大学",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDxSMRWDWVid9W-HDBQ8S7YB5APoTg1n7JteOHRnSWgnelzCdJjxzrH2PbnWnvUk_Fm2pT39fqeJ3cbZGGDZgWSGskvE1eUOSDT_Dgvgldja0vLK9CJ2fZuxY5mdkrLq_0e7-9297TDAKfjCgAYPqVJMlNh85rJskfntPxH0rIgn8AdWP7Uc8LnPfRAp5sXYIfcWrMclKvUe4Y7zfbUcv8pJQyRC24FasKx3_vlye3hNGpZ1AxyW8l5wGYae8xTjThFkortGFYCi_YQ",
+        "labels": [
+          { "text": "985工程", "tone": "blue" },
+          { "text": "211工程", "tone": "blue" },
+          { "text": "北京", "tone": "neutral" },
+          { "text": "综合类", "tone": "neutral" }
+        ],
+        "majors": ["经济学", "法学", "文学"]
+      },
+      {
+        "name": "清华大学",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA3BHveLSASkPLiBNHQt74jUJJZ2XgmbihryjOhO80yNcYhap2fJfj0VRMP_GvyMmOFOpdAFp7ZvEf3V510nsafFW5iMjOWbZzMOxHBDZbpcSBRHdTLJo94q2iFjF98f1PfOaAEIrDwY1izm4KStgrU6op2FAcoW3qEhUP9YXAf5mBTUy9Dn1LzNWLk20fBhOKApEhr9c0MyWmhXuHl3MTW9ALMjmuVLtICpRXu9c6cBc0yTnDKM7jFc0aoIANYkM62xJjp9AwEu6mf",
+        "labels": [
+          { "text": "985工程", "tone": "blue" },
+          { "text": "211工程", "tone": "blue" },
+          { "text": "北京", "tone": "neutral" },
+          { "text": "理工类", "tone": "neutral" }
+        ],
+        "majors": ["计算机科学", "建筑学", "机械工程"]
+      }
+    ],
+    "pagination": ["1", "2", "3"]
+  },
+  "studyPlan": {
+    "label": "The Radiant Harbor - 你的专属上岸航线",
+    "title": "备考规划",
+    "subtitle": "把宏大的目标拆成一段一段可走完的路，让今天的坚持，精准落到最终上岸上。",
+    "actions": {
+      "edit": "编辑规划",
+      "summary": "生成阶段总结"
+    },
+    "targetSchool": "清华大学",
+    "targetMajor": "计算机科学与技术 (081200)",
+    "progress": 35,
+    "daysLeft": 185,
+    "timeline": [
+      {
+        "title": "基础阶段(当前)",
+        "period": "3月 - 6月",
+        "status": "进行中",
+        "description": "全面梳理考研大纲，建立知识体系框架。重点攻克英语长难句及数学基础概念。",
+        "tasks": [
+          { "text": "完成高数上册基础学习", "done": true },
+          { "text": "背诵考研词汇核心词 (2500/5500)", "done": false },
+          { "text": "数据结构第一遍通读", "done": false }
+        ]
+      },
+      {
+        "title": "强化阶段",
+        "period": "7月 - 9月",
+        "status": "未开始",
+        "description": "大量刷题，突破重难点，建立解题思路。英语开始真题精读，专业课开始背诵。",
+        "tasks": [],
+        "tags": ["数学真题分类", "英语阅读强化"]
+      },
+      {
+        "title": "冲刺阶段",
+        "period": "10月 - 11月",
+        "status": "未开始",
+        "description": "真题全真模拟，查漏补缺，政治全面背诵。",
+        "tasks": []
+      }
+    ],
+    "todayFocus": {
+      "title": "今日核心任务",
+      "subtitle": "专注当下，一步一个脚印。",
+      "task": "高数：多元函数微分学",
+      "note": "完成课后习题及错题整理，预计 2 小时。"
+    },
+    "weeklyTasks": {
+      "title": "本周待办任务",
+      "list": [
+        { "text": "英语长难句分析 5 句", "note": "每天坚持", "done": false },
+        { "text": "数据结构第二章笔记整理", "note": "本周重点", "done": true },
+        { "text": "政治马原框架导图", "note": "周日前完成", "done": false }
+      ],
+      "button": "查看全部任务"
+    }
+  },
+  "learning": {
+    "hero": {
+      "title": "晨光熹微，",
+      "subtitle": "连续打卡 45 天，保持光芒！",
+      "button": "今日打卡",
+      "buddies": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBa3vl-OsW6hS-ObCRt3PXX2Uz2x34eb5Kjmpa3woJbH4cKdiOjAN0V10SpczDAgVczZK8H1rejVRLu8EhiQ8Q2fmJxXfDcKYoZjnvDO1PM2M9dhCtyvj4-1BKu1kFCb-b0dw1X84v7Ac9_cWmyV91axeLyUYfVXeT9p-yZjrrKG1XyeY3iNeQr76Mp0x8NlIub7UPIsY9vDU4-Iu60718Il88qzsCJfb0bv8MnxzOofs9WqqWl3te-vikKm6HH-eGzsMXUp7h-wj5r",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBNZ8dGRxfA-Ve43dNoTh1mMay66NHxukGXasiw6RM6j0Q1213lACeLVc7g1ytH9jkHKSu3jIX8uEDxl7ALsRsyutqeBPw0xhf-NfqaygSySwucybYnoyBr7JEBTH6-1kCMTxiSr7MZ6LAEOCL_A8VtiFvzmrbNKPyT_iK1BeT9nWl3tlZNAXOxE3VzU3lu9jRZ_KdAKcGlTnSObA8WQVNITCiQ3UWk9cTaC7cTP5c7vW3jhWfCyZcoiLz3wuu0dvM1eEq37X0UFdZc"
+      ]
+    },
+    "focus": {
+      "title": "番茄专注",
+      "subtitle": "下一个目标：英语长难句",
+      "time": "25:00"
+    },
+    "heatmap": {
+      "title": "学习热力图",
+      "subtitle": "记录你的每一步坚持",
+      "month": "2024年10月",
+      "days": ["一", "二", "三", "四", "五", "六", "日"],
+      "grid": [
+        "#e6e2dc", "#ffe7ad", "#ffd061", "#8d6900", "#ffcf58", "#ffc598", "#e6e2dc",
+        "#ffe7ad", "#8d6900", "#ffd061", "#e7e2dc", "#ffd061", "#8d6900", "#ffe7ad",
+        "#ffc598", "#8d6900", "#ffd061", "#8d6900", "#ffe7ad", "#e7e2dc", "#ffd061"
+      ]
+    },
+    "subjects": {
+      "title": "科目占比",
+      "total": "4",
+      "list": [
+        { "name": "英语", "percent": "35%", "color": "#8a6500" },
+        { "name": "政治", "percent": "30%", "color": "#ffc598" },
+        { "name": "专业课", "percent": "20%", "color": "#9cdff8" }
+      ]
+    },
+    "dailyHours": {
+      "title": "每日时长",
+      "average": "平均 6.5 小时/天",
+      "bars": [
+        { "day": "一", "height": "98px", "color": "#ffc94a" },
+        { "day": "二", "height": "172px", "color": "#8a6500" },
+        { "day": "三", "height": "124px", "color": "#ffca57" },
+        { "day": "四", "height": "52px", "color": "#d9d5cf" },
+        { "day": "五", "height": "198px", "color": "#ffca57" },
+        { "day": "六", "height": "146px", "color": "#8a6500" }
+      ]
+    },
+    "report": {
+      "title": "每周学习报告已生成",
+      "subtitle": "回顾本周的点滴进步，查看你的成长轨迹。",
+      "button": "查看报告"
+    }
+  },
+  "community": {
+    "composer": {
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBUR5J-awSRgzd9Y8KV2jQL3xYzregcyJGDmT0Y6yDd3sGkIKsOh5vyTIOJUsisvan-AGzK0fclrFE4vqaEcMvU2Xi6DnWuQBM1GvKd17xGBFZngeXBsuACpUMj1fJmUzb4ulhjZCBnxIlEt2_eKSANpZkpvfxVw1Vwp47merI0Kr4edkE9BD43YcFjF8Y3se3dH6n0aJxc6dKOS5qcGCivKnSuyHyLoAikCpmnz09MNRNPYHs6RywAYri_ASeMsDEo0U3SvmCl_o12",
+      "placeholder": "分享你的备考日常、学习心得，或者倒点苦水..."
+    },
+    "tabs": [
+      { "label": "推荐", "active": true },
+      { "label": "经验分享", "active": false },
+      { "label": "每日打卡", "active": false },
+      { "label": "树洞", "active": false },
+      { "label": "找搭子", "active": false }
+    ],
+    "posts": [
+      {
+        "author": "研路漫漫小分队",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDM7nE6f4HhlCoE1JXpt_9Js08_t_fX5ypWBxIv0wHRr59PK5bettLg2IRG8dJhfzkJ7hUqos1pk8EHDik-M6udm14JzlgqX0NW_392plU5rVEVq14hkxhulQAh5_lTbhbM-mlraRudc1eDxBlqHonDuv-7U4K8G4z-aWDfq0KAdS0ULgp74lhyRvAq0a3nTNadCHXiD7WJdkxmpr9PoIMVqSMwTUnEbnEWv0VxDqknS6hx_kAC1vE5Sj5-oERa_JE0SaaqNfhbONLj",
+        "meta": "2小时前 · 来自 浙江大学考研圈",
+        "content": "今天终于把专业课第一遍过完了！心情太好，分享一下我的背诵框架。建议大家第一遍不要死磕细节，先建立宏观体系。整理了几张思维导图，希望能帮到同样在挣扎的研友们。📚✨",
+        "tags": ["#经验分享", "#考研日记", "#思维导图"],
+        "images": [
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuDmd73kOCLUpZiJtqiUrq1nHU983UnqunFgbKI6WwdVdWJEhSEiDiWW3abiK5fAmDEniMdZk_PbvgdFMnzhncqkEvkEwcCwZGd6PbuX_7IiXtlFMltAcSadFc9WqC6dx7X9LJH_TVMnX1A_uYmQj_-5ArHfakfuFH67sgRKj0OnSBz-hpwBmaqhByGxovNjNHgRhG47KD0zDI9Ak0NJ7BdyMFuUbWrnWhZvQz0jYV3XNlVJK7OTBqwEHEL3TLEam9qaHKQ-ZYKANReS",
+          "https://lh3.googleusercontent.com/aida-public/AB6AXuD_9kAQO_ZG_i47RvDpLAhG0VH7KjPXD_OXib2Me7wXJ0sZpOUxQRxEKcIETdlxatt_AQS59n9Z9NmSp-xr41mCsdFia21MGCeLY7_hlnMgwjeF2FOLFdeFkmvKLWrNOGJumt9jkAh6Sa9dl-aHDCad0cA8wD4hxY14DthpUS2uZ1XY4_Pul28iX4-2x-JkI0j_JoM359QFT2n0NTawzlIcZ4LIj2kiL7j7k58LyfnVyD9xSt-2lHYZsdnH4VslbQiX33SR-7dpq2b9"
+        ],
+        "stats": [
+          { "icon": "thumb_up", "label": "128" },
+          { "icon": "chat_bubble", "label": "45" },
+          { "icon": "star", "label": "32" }
+        ],
+        "share": true
+      },
+      {
+        "author": "匿名小太阳",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDSthI8n07SGIAqM2ly0njUdTUgHBjlJW-bOlN3hqHZHk85j2VXZxP8iqBE4cSQSmHfSk_NMX_JZm6B49RvIi9iZKZgouPmk3dOSuYE-_eOmtPTY6Ed1kJO1HYzGT8xhP2b1XlVWvbYtF0am1HvRH1d76DcpzwCop5JsJd2Kdp7o9vPPqQWvJ-XVliuU6aAx1i49xnwEzizcInPJDVnOBn-gPqsUwlYk0wNzdtsjpEUnT94pB4FanCZJijm3EUzL69x4k4wVHsIKbxT",
+        "meta": "5小时前 · 树洞",
+        "content": "最近模拟考成绩退步了，选择题错了一大半。每天学到凌晨一点，早上六点起，感觉身体和精神都快到极限了。看着倒计时一天一天变少，真的好焦虑，感觉自己考不上了… 有人能给我一点鼓励吗？😭",
+        "tags": ["#情绪急救", "#树洞抱抱"],
+        "supportBar": "阳光总在风雨后。目前有 56 位研友给了 ta 抱抱。",
+        "stats": [
+          { "icon": "favorite", "label": "抱抱 (56)" },
+          { "icon": "chat_bubble", "label": "暖心评论 (24)" }
+        ]
+      }
+    ],
+    "quoteCard": {
+      "title": "今日晴朗",
+      "content": "不要焦虑未来的种种可能，把所有的精力都倾注在当下的这一页书上。你流过的每一滴汗，都会在考场上化作光芒。"
+    },
+    "hotTopics": {
+      "title": "热门话题",
+      "refresh": "换一换",
+      "list": [
+        { "rank": 1, "text": "#24考研倒计时50天#", "meta": "3.2w 人正在讨论" },
+        { "rank": 2, "text": "#政治肖八怎么刷#", "meta": "1.8w 人正在讨论" },
+        { "rank": 3, "text": "#睡前背诵记忆法#", "meta": "9k 人正在讨论" },
+        { "rank": 4, "text": "#英语大作文摸鱼模板#", "meta": "7.5k 人正在讨论" }
+      ]
+    },
+    "friends": {
+      "title": "推荐研友",
+      "list": [
+        {
+          "name": "计算机跨考小王",
+          "meta": "目标院校：清华大学 软件工程",
+          "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDSthI8n07SGIAqM2ly0njUdTUgHBjlJW-bOlN3hqHZHk85j2VXZxP8iqBE4cSQSmHfSk_NMX_JZm6B49RvIi9iZKZgouPmk3dOSuYE-_eOmtPTY6Ed1kJO1HYzGT8xhP2b1XlVWvbYtF0am1HvRH1d76DcpzwCop5JsJd2Kdp7o9vPPqQWvJ-XVliuU6aAx1i49xnwEzizcInPJDVnOBn-gPqsUwlYk0wNzdtsjpEUnT94pB4FanCZJijm3EUzL69x4k4wVHsIKbxT"
+        },
+        {
+          "name": "教育学上岸鸭",
+          "meta": "已打卡 120 天｜寻找早起搭子",
+          "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBuZa5r8dbHrRCE9SDhmd6-xu_4FP2XimUbK_MgF9i8jpDzt_vKSYhKiNtmjBQCXFyHx7JFgs703aifHt5v2aovA0LHe3-HUUsSUMD0AaTobhKAH3mfuHa3LUOymjjOKw4l24XCeMl7WrN6ao9P2pCsFFsNuUC8uO3MtTPjS1ADrKqAKSPOixiAsFHsxux9S1C8u0i7AFVBELaI0yn_3AfRy2V39FwmNeZoQPXwuHqiCEtGanj8vh9pu_XhuSV5DXzkUrALJBTGhY_m"
+        }
+      ]
+    },
+    "loadingText": "正在加载更多阳光..."
+  },
+  "resources": {
+    "categories": [
+      {
+        "name": "公共课",
+        "icon": "menu_book",
+        "active": true,
+        "children": ["英语", "数学", "政治"]
+      },
+      {
+        "name": "专业课",
+        "icon": "library_books",
+        "active": false
+      },
+      {
+        "name": "模拟考试",
+        "icon": "assignment",
+        "active": false
+      },
+      {
+        "name": "复试指南",
+        "icon": "explore",
+        "active": false
+      }
+    ],
+    "quote": "手中翻过的每一页，都是近岸的舟。加油！",
+    "searchPlaceholder": "搜索资料名称、作者或知识点...",
+    "hotTags": ["肖秀荣1000题", "英语一长难句", "高数强化笔记", "政治马原框架"],
+    "cards": [
+      {
+        "badge": "PDF笔记",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAIrLeTOfzEvl56sZAAxrMop79pAfrBdWxsgDZdzsLFjmfKifjHxLj1i3Bq1P2e8XK4WAOIfJxMchzqBxlVKmpGn6CHURSybi68Scv83UYHre0LDiNDFL_dWjg7o3zMaipiwUzZXwbFp3zQgNyAm9FvGJVlwwlXdrPJLUZFai_P7jN-gwgTVG_CRsH3rEoVPJ4Vqt8ZirjH0Y2g9dTIQSJPThrer4BX9Z0YnpmZHJYI28VX0LlkfbH2lr4SzR8T9NDMumZ2pZ0sSERW",
+        "title": "2025考研政治全面框架笔记（思维导图版）",
+        "description": "包含马原、史纲、毛中特等全部重要考点的思维导图，帮助你快速梳理逻辑框架。",
+        "authorBadge": "林",
+        "author": "林学长",
+        "likes": "1.2k",
+        "bookmarks": "3.4k"
+      },
+      {
+        "badge": "真题解析",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDTwyc9zMcVnW-h7mrLXSPIyUGXir0PeUd5idQGm3i7_Zrd3fYQnhXdSHmlzZPPj3b9afQfnBrv0Yut2Vr2Bu_MgjFMzTOHDBb7Cme5lTI6VbVoyqiUHPXOQG1kG8oleFn_T79vD46o5qC7U50j8KiTpmNUfz2gGcEDNTWqFaidPiBYYPGiS0fkapYiPTcHVi_XfZvH6jEOUQhNZBqGPzbaXoASB1Dd_9hB9m6ByFdJDt-Wcun9Jm9-nmlFcV3CIOOxvFMbEifMbapo",
+        "title": "英语一近十年真题长难句深度拆解",
+        "description": "从语法核心出发，逐句分析长难句结构，提炼高频词汇与翻译技巧，适合英语基础强化阶段。",
+        "authorBadge": "研",
+        "author": "研友小王",
+        "likes": "856",
+        "bookmarks": "2.1k"
+      },
+      {
+        "badge": "手写笔记",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD9OZB4SosM5ObOeeIqtitBtxZj9vZaE1xfEFQ05CuCiBeobzNpJAaxFVnRYWWolxEvM9XaVIjsrKRS9FhgJyt1vGlADrW4x-aPpwqq35_HD2Wg7JL8yRLlDP26km66Kcl737kAz_pAcKidJg0GqlXqKsWtJzcHvrQu5sdQNkyraitv8TxeauTO58hL9Xx3cCHrTwaxfUJcHXKTZpribjR9RRIJO6WvGic2KyPI0LT0FTFpGh_4ZeqZIcCyPd9C1e4k92m4UhWR5PC9",
+        "title": "高数140+学姐的强化阶段错题本",
+        "description": "收录微积分、线代核心易错题，附带详细解题步骤与思路避坑指南，冲刺高分必备。",
+        "authorBadge": "李",
+        "author": "李学姐",
+        "likes": "2.5k",
+        "bookmarks": "5.8k"
+      }
+    ],
+    "pagination": ["1", "2", "3", "..."]
+  },
+  "profile": {
+    "user": {
+      "name": "小太阳",
+      "target": "清华大学",
+      "streak": "45天",
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCLneGuLKxfVVhp2HYJV0I4biM4YpYznTyA38a5c3jiq0vsL3aeDTyBw3hCWXXMKDv-7IHMggwVPW51_SE2pnwrFZyo-r2F3-WhWEpmg8eZ5U2zo-S90CLkhXp4PHxLoAytG6P4vUYbgJmR2WEc1OcJ6Zc14iRoy1i33Fn-reBX4mZXxicUHuiWFeyatODgQTEqDDuIWE8KHfaj2thIgWz4vPsuR326zJnTBZr8eeFwLqmati2exZNTZkrRsmxwibJFkKpdiNaMsZV2"
+    },
+    "menu": [
+      { "label": "个人设置", "icon": "person", "active": true },
+      { "label": "消息通知", "icon": "notifications", "badge": "3", "active": false },
+      { "label": "隐私设置", "icon": "shield", "active": false },
+      { "label": "帮助与反馈", "icon": "help", "active": false }
+    ],
+    "stats": [
+      { "label": "累计专注时间", "icon": "timer", "value": "128", "unit": "小时", "iconColor": "#996116", "decor": "i" },
+      { "label": "已完成任务", "icon": "task_alt", "value": "342", "unit": "个", "iconColor": "#5eb6d9", "decor": "✓" },
+      { "label": "收到点赞", "icon": "favorite", "value": "89", "unit": "次", "iconColor": "#b8752a", "decor": "♥" }
+    ],
+    "tabs": [
+      { "label": "我的计划", "active": true },
+      { "label": "我的动态", "active": false },
+      { "label": "我的收藏", "active": false },
+      { "label": "我的报告", "active": false }
+    ],
+    "emptyState": {
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDPwNs5-_NaVdjOPSttBCr3VgNmsSr_Q0033vTvoCSRu-eE2Lh0696M478KO4KYLnGTgag-cgQf1Jkb0xkB13Pl2gmb5Mm0MKrZDBZLBFxLRcP_ZgU5B0jReFL0VgQIHjMIwRaNFOe9cHBFyAT5i1d1Dkoe7v3HBu2MVHu3V5LHzZK1459xGI9VgJOsptMhQ8Xx4lK2JbxecWnKw1NgdpHGC6odPB8cyzpGiEbNXFVAF5VL5CKQdcj274XCAQzaYLyKcDbWSNE09f2K",
+      "title": "暂无复习计划",
+      "description": "开始制定你的复习计划，为清华大学冲刺吧！每一天的坚持，都会让你离阳光海岸更近一步。",
+      "button": "创建我的复习计划"
+    }
+  }
+}
