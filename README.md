@@ -35,6 +35,7 @@ npm.cmd run dev
 set VITE_API_BASE=http://localhost:8080
 ```
 
+目前只搭建了基础骨架，还有许多功能需要完善
 
 欢迎各位大佬的优化以及指正！！！
 
