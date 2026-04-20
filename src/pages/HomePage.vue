@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="space-y-16">
+      <!-- 首页首屏：承载品牌主标题、搜索入口和视觉主图，是用户进入站点后的第一屏信息。 -->
       <section class="grid items-center gap-10 lg:grid-cols-[1.02fr_0.98fr]">
         <div class="space-y-8">
           <div class="tag bg-white text-[#7a6e56] shadow-ambient">{{ page.hero.eyebrow }}</div>
@@ -49,6 +50,7 @@
         </div>
       </section>
 
+      <!-- 功能捷径区：左侧突出倒计时，右侧承接核心功能入口，帮助用户快速进入主要场景。 -->
       <section class="grid gap-4 lg:grid-cols-[1.1fr_1.7fr]">
         <div class="warm-panel relative overflow-hidden p-7">
           <div class="absolute right-[-25px] top-[-10px] h-32 w-32 rounded-full bg-white/15" />
@@ -90,6 +92,7 @@
         </div>
       </section>
 
+      <!-- 推荐院校区：以卡片形式展示热门学校信息，突出选校参考价值。 -->
       <section class="space-y-7">
         <div class="flex items-end justify-between gap-4">
           <div class="space-y-2">
@@ -119,6 +122,7 @@
         </div>
       </section>
 
+      <!-- 上岸故事区：通过真实感较强的故事卡片增强信任感与情绪激励。 -->
       <section class="space-y-8 pb-10 text-center">
         <div class="space-y-3">
           <h2 class="section-heading">{{ page.storySection.title }}</h2>
@@ -157,9 +161,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.home)
+// 首页只读取全站数据中的 home 分区，避免页面脚本直接感知整个站点结构。
+const { page, error } = useSiteSection('home')
 </script>

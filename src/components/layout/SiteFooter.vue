@@ -1,10 +1,12 @@
 <template>
   <footer class="mt-20 bg-[#f2f1ed]">
     <div class="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-10 text-[#9b978f] md:flex-row md:items-end md:justify-between">
+      <!-- 左侧品牌信息：展示站点名称与版权文案。 -->
       <div class="space-y-2">
         <div class="font-headline text-[18px] font-extrabold text-[#9d9a92]">{{ brand }}</div>
         <div class="text-sm">{{ copyright }}</div>
       </div>
+      <!-- 右侧辅助信息：展示品牌口号和底部链接。 -->
       <div class="space-y-6 text-center md:text-right">
         <div class="font-headline text-[44px] font-black italic text-[#b7b2a9]/50">{{ brand }}</div>
         <div class="flex flex-wrap justify-center gap-8 text-sm md:justify-end">

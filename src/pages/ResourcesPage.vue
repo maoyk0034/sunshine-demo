@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="grid gap-10 xl:grid-cols-[320px_1fr]">
+      <!-- 左侧分类区：展示资料分类树和引导性文案，帮助用户快速定位资源方向。 -->
       <aside class="space-y-8">
         <article class="panel p-8">
           <div class="mb-7 font-headline text-[44px] font-bold">资料分类</div>
@@ -29,6 +30,7 @@
         </article>
       </aside>
 
+      <!-- 右侧资源区：包含搜索框、热门标签和资料卡片列表，是资源浏览主体。 -->
       <div class="space-y-8">
         <article class="panel p-7">
           <div class="rounded-[22px] bg-[#efebe4] px-6 py-6 text-[20px] text-[#8e846f]">
@@ -83,6 +85,7 @@
           </article>
         </div>
 
+        <!-- 分页占位区：当前用于表现翻页结构，后续可接入真实分页或无限滚动。 -->
         <div class="flex justify-center gap-3 pt-6">
           <button type="button" class="icon-button"><span class="material-symbols-outlined">chevron_left</span></button>
           <button
@@ -106,9 +109,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.resources)
+// 资料页只消费 resources 分区数据，避免与其他页面数据耦合。
+const { page, error } = useSiteSection('resources')
 </script>

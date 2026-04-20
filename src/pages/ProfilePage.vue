@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="grid gap-10 xl:grid-cols-[360px_1fr]">
+      <!-- 左侧个人信息区：展示头像、目标院校、连续打卡情况和功能菜单。 -->
       <aside class="space-y-8">
         <article class="panel relative overflow-hidden p-8 text-center">
           <div class="absolute left-0 top-0 h-48 w-full bg-[radial-gradient(circle_at_85%_10%,rgba(255,201,74,0.3),transparent_34%),radial-gradient(circle_at_25%_15%,rgba(152,226,253,0.2),transparent_28%)]" />
@@ -52,6 +53,7 @@
         </article>
       </aside>
 
+      <!-- 右侧主内容区：上方展示成就数据，下方展示计划列表的空状态占位。 -->
       <div class="space-y-8 pt-4">
         <section class="space-y-5">
           <div class="font-headline text-[44px] font-bold">成就看板</div>
@@ -113,9 +115,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.profile)
+// 个人中心页面只读取 profile 分区，和页面展示结构一一对应。
+const { page, error } = useSiteSection('profile')
 </script>

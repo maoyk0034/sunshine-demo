@@ -1,4 +1,5 @@
 <template>
+  <!-- 应用外层骨架：所有路由页面都会包裹在统一布局中，复用导航与页脚。 -->
   <AppShell>
     <RouterView />
   </AppShell>

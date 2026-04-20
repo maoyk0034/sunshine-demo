@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="grid gap-8 xl:grid-cols-[1.65fr_0.82fr]">
+      <!-- 社区主列：包含发帖输入区、内容标签切换和帖子流，是主要互动区域。 -->
       <div class="space-y-8">
         <article class="panel overflow-hidden p-0">
           <div class="grid gap-0 md:grid-cols-[84px_1fr]">
@@ -85,6 +86,7 @@
         </div>
       </div>
 
+      <!-- 社区侧栏：补充展示每日文案、热点话题和推荐研友，增强陪伴感。 -->
       <aside class="space-y-6 pt-1">
         <article class="warm-panel relative overflow-hidden p-8">
           <div class="absolute right-[-18px] top-[-18px] h-24 w-24 rounded-full bg-white/16" />
@@ -139,9 +141,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.community)
+// 社区页只读取 community 分区，保证页面逻辑聚焦在社区内容本身。
+const { page, error } = useSiteSection('community')
 </script>

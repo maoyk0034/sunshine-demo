@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="grid gap-10 xl:grid-cols-[320px_1fr]">
+      <!-- 左侧筛选区：提供地区、院校层级等筛选条件，用于收窄学校范围。 -->
       <aside class="panel h-fit p-8">
         <div class="mb-10 flex items-center gap-3">
           <span class="material-symbols-outlined text-[28px] text-primary">tune</span>
@@ -40,6 +41,7 @@
         </div>
       </aside>
 
+      <!-- 右侧主内容区：包含搜索框、排序入口和学校列表，是页面的核心浏览区域。 -->
       <div class="space-y-8">
         <div class="panel flex flex-col gap-5 p-5 md:flex-row md:items-center md:justify-between">
           <div class="flex flex-1 items-center gap-3 rounded-[22px] bg-[#f1eee8] px-5 py-5">
@@ -86,6 +88,7 @@
           </div>
         </article>
 
+        <!-- 分页占位区：当前以静态形式展示翻页入口，后续可替换为真实分页逻辑。 -->
         <div class="flex justify-center gap-3 pt-8">
           <button type="button" class="icon-button"><span class="material-symbols-outlined">chevron_left</span></button>
           <button
@@ -109,9 +112,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.schools)
+// 院校库页面只消费 schools 分区数据，使页面职责保持单一。
+const { page, error } = useSiteSection('schools')
 </script>

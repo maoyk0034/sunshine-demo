@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="space-y-12">
+      <!-- 页头区域：展示规划主题、副标题，以及编辑规划、生成总结等主操作按钮。 -->
       <section class="grid gap-10 xl:grid-cols-[1.6fr_0.82fr]">
         <div class="space-y-8">
           <div class="space-y-4 pt-10">
@@ -21,6 +22,7 @@
         </div>
       </section>
 
+      <!-- 规划总览区：集中展示目标院校、目标专业、当前进度和考试倒计时。 -->
       <section class="panel grid gap-8 p-8 xl:grid-cols-[1.1fr_1.2fr]">
         <div class="grid gap-8 md:grid-cols-2">
           <div class="flex items-center gap-5">
@@ -63,6 +65,7 @@
         </div>
       </section>
 
+      <!-- 规划主体区：左侧是阶段时间轴，右侧是今日核心任务和每周待办。 -->
       <section class="grid gap-8 xl:grid-cols-[1.65fr_0.8fr]">
         <div class="space-y-8">
           <div class="font-headline text-[40px] font-bold">备考时间轴</div>
@@ -151,9 +154,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.studyPlan)
+// 备考规划页只读取 studyPlan 分区，页面数据结构更清晰。
+const { page, error } = useSiteSection('studyPlan')
 </script>

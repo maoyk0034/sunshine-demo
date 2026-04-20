@@ -1,6 +1,7 @@
 <template>
   <section class="page-shell">
     <div v-if="page" class="space-y-10">
+      <!-- 学习中心头部：展示当前学习状态、打卡氛围和专注计时器入口。 -->
       <section class="grid gap-8 xl:grid-cols-[1.55fr_0.75fr]">
         <article class="panel relative overflow-hidden p-9">
           <div class="absolute right-0 top-0 h-full w-1/2 bg-[radial-gradient(circle_at_60%_10%,rgba(255,201,74,0.35),transparent_36%)]" />
@@ -51,6 +52,7 @@
         </article>
       </section>
 
+      <!-- 学习数据看板：通过热力图、科目占比和时长柱状图展示学习投入情况。 -->
       <section class="grid gap-6 xl:grid-cols-[1.3fr_0.62fr_0.62fr]">
         <article class="panel p-8">
           <div class="mb-8 flex items-start justify-between">
@@ -108,6 +110,7 @@
         </article>
       </section>
 
+      <!-- 周报入口区：承接复盘和总结场景，引导用户查看阶段性结果。 -->
       <article class="panel-soft flex flex-col gap-6 p-8 md:flex-row md:items-center md:justify-between">
         <div class="flex items-center gap-6">
           <div class="flex h-[72px] w-[72px] items-center justify-center rounded-[22px] bg-white text-primary shadow-ambient">
@@ -131,9 +134,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useSiteData } from '../composables/useSiteData'
+import { useSiteSection } from '../composables/useSiteSection'
 
-const { data, error } = useSiteData()
-const page = computed(() => data.value?.learning)
+// 学习中心页面只依赖 learning 分区数据，和其他页面的数据边界保持一致。
+const { page, error } = useSiteSection('learning')
 </script>

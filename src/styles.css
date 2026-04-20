@@ -4,6 +4,7 @@
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+/* 全局基础重置：统一盒模型，减少浏览器默认样式差异 */
 * {
   box-sizing: border-box;
 }
@@ -27,12 +28,14 @@ a {
   text-decoration: none;
 }
 
+/* 页面通用容器：控制主体内容宽度与左右留白 */
 .page-shell {
   margin: 0 auto;
   max-width: 1280px;
   padding: 2rem 1.5rem 0;
 }
 
+/* 通用卡片外观：用于页面中的主要信息容器 */
 .panel {
   border-radius: 32px;
   background: #ffffff;
@@ -51,6 +54,7 @@ a {
   box-shadow: 0 12px 40px rgba(47, 42, 34, 0.06);
 }
 
+/* 通用按钮与标签样式：服务于多页面复用的交互元素 */
 .sun-button {
   display: inline-flex;
   align-items: center;
@@ -89,6 +93,7 @@ a {
   font-weight: 600;
 }
 
+/* 顶部导航相关交互样式 */
 .icon-button {
   display: inline-flex;
   height: 48px;
@@ -154,6 +159,7 @@ a {
   background: #f2b300;
 }
 
+/* 可复用标题与说明文字样式 */
 .hero-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: clamp(3rem, 5vw, 5rem);
@@ -187,6 +193,7 @@ a {
   object-fit: cover;
 }
 
+/* 移动端适配：在较小屏幕下收紧间距和圆角 */
 @media (max-width: 768px) {
   .page-shell {
     padding-top: 1.25rem;
