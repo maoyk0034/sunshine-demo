@@ -34,3 +34,7 @@ npm.cmd run dev
 ```bat
 set VITE_API_BASE=http://localhost:8080
 ```
+
+目前之完成了基础骨架搭设
+详细内容还在完善
+各位大佬如有意见可以提出，提前感谢大佬们的指正！！！
